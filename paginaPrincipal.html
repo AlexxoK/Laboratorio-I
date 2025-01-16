@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Principal</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        th {
+            color: black;
+            font-size: 30px;
+        }
+
+        td {
+            font-size: 20px;
+        }
+
+        .tabla-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+
+        table {
+            text-align: center;
+            margin-top: 40px;
+            width: 500px;
+            border: 3px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .imagen {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+
+        ul {
+            text-align: center;
+            display: flex;
+            gap: 30px;
+            padding: 0;
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: green;
+            font-size: 18px;
+            transition: color 0.3s ease;
+            display: flex;
+        }
+
+        div {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mis Intereses</h1>
+    <ul>
+        <li><a href="paginaPrincipal.html">Inicio</a></li>
+        <li><a href="biografia/biografia.html">Biografía</a></li>
+        <li><a href="kinal/kinal.html">Kinal</a></li>
+    </ul>
+    <div class="tabla-container">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Videojuegos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Super Smash es un juego muy conocido a nivel competitivo y mi juego favorito.
+                            A este juego suelo invertir poco tiempo, ya que es solo cuando jugamos con mi hermano.
+                            Lo recomiendo para jugar con amigos.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img class="imagen"
+                src="https://media.tenor.com/BPbCXhBzWzkAAAAi/sleepy-wake.gif"
+                alt="img">
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Animales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>La verdad soy amante de los gatos, me gustan mucho y no es para poco ya que tengo 2 ahora
+                            mismo. Sus nombre son Loky y Rita.
+                            Juego con ellos con las bolsas que dan en la tienda, por alguna razón les gustan mucho.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img class="imagen" src="https://media.tenor.com/IM836m7kzcQAAAAi/spinning-cat.gif" alt="img">
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Deporte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mi deporte favorito es sin lugar a dudas el voleibol, es un deporte que debe jugarse
+                            en equipo y estar sincronizados. Es el deporte más dificil en mi opinion.
+                            Suelo jugarlo los fines de semana con mi papá y mi hermana.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <img class="imagen"
+                src="https://media.tenor.com/iokjb-fPg9MAAAAi/machiko-rabbit.gif"
+                alt="img">
+        </div>
+    </div>
+    <footer>
+        <p>Diego Monterroso 2025&copy;</p>
+    </footer>
+</body>
+
+</html>
